@@ -14,7 +14,7 @@ export default function Home() {
       <div className=" flex flex-col place-items-center text-sky-500">
         <h3 className="text-3xl"> Email: {user.email}</h3>
         <h3 className="text-3xl"> Date sign up: {formattedDate}</h3>
-        <NavLink to={`/`}>
+        <NavLink to={`/home/makenewnote`}>
           <button className="my-3 text-2xl border-2 border-sky-500 p-5 rounded-lg cursor-pointer hover:">
             Make New Note
           </button>
