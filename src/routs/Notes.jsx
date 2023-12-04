@@ -45,7 +45,7 @@ export default function Notes() {
                         <h3>🪣</h3>
                       </button>
                     </div>
-                  </div
+                  </div>
                   <Link to={`/home/watchnote/${note.id}`}>
                   <div className="flex flex-row ">
                     <h2 className="text-xl pr-1">{note.text}</h2>
