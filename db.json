@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "a@mail.ru",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "email": "a1@mail.ru",
+      "password": "1234"
+    },
+    {
+      "id": "5efd3d61-1c16-43e8-8979-438c5f62044c",
+      "email": "vladik@mail.ru",
+      "password": "12345678Aa",
+      "signedAt": 1701292327625
+    },
+    {
+      "id": "ab8cda7f-d7c9-4564-b812-6721471c6c41",
+      "email": "anastacia@gmail.com",
+      "password": "pupsik1234A",
+      "signedAt": 1701292405011
+    },
+    {
+      "id": "22c94d82-2a77-4a3a-8ff5-215b8cdc325b",
+      "email": "pusik@mail.ru",
+      "password": "12345678Aa",
+      "signedAt": 1701292614637
+    },
+    {
+      "id": "f0380067-328d-40fa-8169-bb88787515d0",
+      "email": "anatoliy@gmail.com",
+      "password": "12345678Anaconda",
+      "signedAt": 1701649218491
+    }
+  ],
+  "notes": [
+    {
+      "id": "22c94d82-2a77-4a3a-8ff5-215b8cdc325b",
+      "userId": "ab8cda7f-d7c9-4564-b812-6721471c6c41",
+      "name": "ahskjdhasd",
+      "description": "kjahskjdhajk",
+      "date": 1701006539866
+    }
+  ]
+}
