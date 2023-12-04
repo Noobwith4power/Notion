@@ -27,13 +27,14 @@ export default function Notes() {
         {notes.length != 0 ? (
           <div>
             {notes.map((note) => (
-              <Link to={`/home/watchnote/${note.id}`}>
                 <div
                   className="mt-5 p-3 text-slate-500 w-full border-2 rounded-lg border-rose-500 bg-slate-800"
                   key={note.id}
                 >
                   <div className=" flex flex-row justify-between">
+                     <Link to={`/home/watchnote/${note.id}`}>
                     <h1 className="text-2xl">{note.name}</h1>
+                       </Link>
                     <div className="flex flex-row">
                       <button
                         onClick={() => navigate(`/home/changenote/${note.id}`)}
@@ -44,7 +45,8 @@ export default function Notes() {
                         <h3>🪣</h3>
                       </button>
                     </div>
-                  </div>
+                  </div
+                  <Link to={`/home/watchnote/${note.id}`}>
                   <div className="flex flex-row ">
                     <h2 className="text-xl pr-1">{note.text}</h2>
                     <h2 className="text-xl">
@@ -53,8 +55,9 @@ export default function Notes() {
                       )}
                     </h2>
                   </div>
+                     </Link>
                 </div>
-              </Link>
+              
             ))}
           </div>
         ) : (
